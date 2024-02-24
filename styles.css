@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#282d3d;
+}
+
+h1{
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+i{
+    color: gray;
+}
+
+/* First "Page" and Second "Page"*/
+.ImgtoJPEG,
+.ThreeText{
+    text-align: center;
+    align-items: center;
+    margin: 1em;
+}
+.ImgtoJPEG img{
+    width: 100%;
+    max-width: 40em;
+    height: 100%;
+}
+
+.ThreeText img{
+    width: 100%;
+    max-width: 100em;
+    height: 100%;
+}
+
+.RollText{
+    padding: 2em;
+}
+
+
+
+/* Third "Page" */
+.FourGrid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.RickRoll{ 
+    width: auto;
+    margin: 2em;
+    border: 5px solid orange;
+}
+.RickRoll img{
+    width: 100%;
+    max-width: 40em;
+    height: 100%;
+}
